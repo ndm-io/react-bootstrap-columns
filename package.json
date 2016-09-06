@@ -1,0 +1,23 @@
+{
+  "name": "react-bootstrap-columns",
+  "version": "0.1.0",
+  "description": "Very simple text flow column React component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndm-io/react-bootstrap-columns.git"
+  },
+  "author": "Rob Atherton <robather@googlemail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ndm-io/react-bootstrap-columns/issues"
+  },
+  "homepage": "https://github.com/ndm-io/react-bootstrap-columns#readme",
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "react": "^15.3.1"
+  }
+}
