@@ -7,7 +7,7 @@ const browserify = require('browserify'),
 const SRC = './src/index.js',
     DEST = './build';
 
-gulp.task('install', function () {
+gulp.task('default', function () {
     return browserify(SRC)
         .transform("babelify", {presets: ["es2015", "react"]})
         .bundle()
