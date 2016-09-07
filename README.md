@@ -14,9 +14,7 @@ Is only useful for bootstrap / react projects
 
 ###Install
 
-<pre>
-npm install --save react-bootstrap-columns
-</pre>
+clone this repository. Do not use npm version... its broken
 
 
 ###Example
