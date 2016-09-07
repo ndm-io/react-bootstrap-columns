@@ -1,5 +1,5 @@
 const React = require('react'),
-    _ = require('lodash');
+    chunk = require('lodash/chunk');
 
 const Column = require('./column');
 
@@ -23,7 +23,7 @@ const Columns = React.createClass({
             children = this.props.children || [],
             chunkSize = Math.ceil(children.length / this.props.columns);
 
-        const columns = _.chunk(children, chunkSize);
+        const columns = chunk(children, chunkSize);
 
         return (
             <div className="row">
