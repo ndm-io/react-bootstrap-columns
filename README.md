@@ -15,7 +15,7 @@ Is only useful for bootstrap / react projects
 ###Install
 
 <pre>
-npm install --save <name>
+npm install --save react-bootstrap-columns
 </pre>
 
 
