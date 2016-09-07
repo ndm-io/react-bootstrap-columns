@@ -1,9 +1,10 @@
 {
   "name": "react-bootstrap-columns",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Very simple text flow column React component",
   "main": "index.js",
   "scripts": {
+    "postinstall": "gulp install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
